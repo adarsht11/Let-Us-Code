@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    background-color: white;
+    height: 80px;
+    width: auto;
+}
+.main h1{
+    float: left;
+    font-size: 5rem;
+}
+.main ul{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+.main ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.main ul li.active a{
+    background-color: black;
+    color:white;
+}
+.container{
+    height: 1155px;
+    width: auto;
+    background-color: #eadeea;
+}
+.row{
+    justify-content: center;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    height: 239px;
+    width: auto;
+}
+.column{
+    position: relative;
+    top: 2rem;
+    height: 172px;
+    width: 223px;
+    margin: 5px;
+}
+.card{
+    height: 160px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 5px 0px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0 rgb(0 0 0 / 18%);
+}
+.card-image{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    width: 186px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.card-title{
+    background: #f1f1f1;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 20px;
+    height: 25px;
+}
+.card-text{
+    font-size: 2rem;
+    color: rgba(0,0,0,0.7);
+    font-family: Roboto,Arial,sans-serif;
+}
+#DS-h1{
+    height: 25px;
+    padding: 1rem;
+    position: relative;
+    left: 193px;
+    font-size: 4rem;
+    top: 22px;
+}
+.card-image img{
+		width: 100%;
+		transition: 0.5s all ease-in-out;
+	}
+	
+.card-image:hover img {
+		transform: scale(1.5);
+	}
+    .footer{
+        padding: 2rem;
+        height: 3.5rem;
+        width: auto;
+        background-color: #edf0f3;
+        color: white;
+    }
+    
+    .social-media ul li {
+        list-style-type: none;
+    }
+    .social-media ul li a{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border: 1px solid transparent; 
+        transition: 0.8s ease;
+    }
+    .social-media ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    #heading{
+        position: relative;
+        left: 2rem;
+        height: 4rem;
+    }
+    .social-media ul{
+        float: right;
+        display: flex;
+    }
+    .social-media ul li a img{
+        height: 20px;
+        width: auto;
+    }
+    .social-media p{
+        float: left;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
